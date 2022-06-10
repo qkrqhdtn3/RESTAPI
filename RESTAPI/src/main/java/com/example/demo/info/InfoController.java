@@ -9,6 +9,9 @@ import com.example.demo.info.model.Project;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @RestController
 public class InfoController {
 	
@@ -21,6 +24,8 @@ public class InfoController {
 //	Jackson
 	@GetMapping("/info")
 	public Object projectInfo() {
+		log.debug("/info start");
+		
 		Project project = new Project();
 		project.projectName = "preword";
 		project.author = "hello-bryan";
