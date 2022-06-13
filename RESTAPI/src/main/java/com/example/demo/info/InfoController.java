@@ -2,6 +2,7 @@ package com.example.demo.info;
 
 import java.util.Date;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,29 +16,38 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 public class InfoController {
 	
-//	@GetMapping("/info")
-//	public String projectInfo() {
-////		return "Project name is preword.";
-//		// 원시적 json 문자열 만들기
-//		return "{\"project name\": \"preword\", " + "\"created date\": \"2021-07-03\"}";
-//	}
+	@GetMapping()
+	public String Hello() {
+		return "Hello2";
+	}
+	
+	@GetMapping("/info1")
+	public String projectInfo1() {
+//		return "Project name is preword.";
+//		원시적 json 문자열 만들기
+		return "{\"project name\": \"preword\", " + "\"created date\": \"2021-07-03\"}";
+	}
+	
 //	Jackson
-	@GetMapping("/info")
-	public Object projectInfo() {
-		log.debug("/info start");
+	@GetMapping("/info2")
+	public Object projectInfo2() {
+//		11:25:20.354 [http-nio-8080-exec-2] DEBUG com.example.demo.info.InfoController - /info start
+//		11:23:49.233 [http-nio-8080-exec-1] INFO  com.example.demo.info.InfoController - return com.example.demo.info.model.Project@fb7c8fb
+		log.debug("/info2 start");
 		
 		Project project = new Project();
 		project.projectName = "preword";
 		project.author = "hello-bryan";
 		project.createdDate = new Date();
 		
+		log.info("return {}", project.toString());
 		return project;
 	}
 //	결과
 //	{"projectName":"preword","author":"hello-bryan","createdDate":"2022-06-08T04:41:36.912+00:00"}
 	
 //	Gson
-	@GetMapping("/info2")
+	@GetMapping("/info3")
 	public String cumstomJson() {
 		JsonObject jo = new JsonObject();
 		jo.addProperty("projectName", "preword");
@@ -53,9 +63,20 @@ public class InfoController {
 		jo.add("follower", ja);
 		return jo.toString();
 	}
+
+//	DI InfoControllder, InfoService
+//	@Autowired
+	private InfoService infoService;
 	
-	@GetMapping()
-	public String Hello() {
-		return "Hello2";
+	@Autowired
+	public InfoController(InfoService infoService) {
+		this.infoService = infoService;
+	}
+	
+	@GetMapping("/info4")
+	public Object projectInfo4() {
+		log.debug("/info4 start");
+		Project project = infoService.getProjectInfo();
+		return project;
 	}
 }
