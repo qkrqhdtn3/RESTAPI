@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/preword?serverTimeZone=UTC&CharacterEncoding=UTF-8
-    username: prewordadmin
-    password: 153153 
+    url: jdbc:mysql://localhost:3306/world?serverTimeZone=UTC&CharacterEncoding=UTF-8
+    username: qkrqhdtn3
+    password: 153153

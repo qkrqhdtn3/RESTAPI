@@ -1,0 +1,200 @@
+[INFO ] 14:09:56.432 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 16040 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 14:09:56.433 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 14:09:56.545 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 14:09:56.580 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 14:09:56.580 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:09:56.580 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:09:56.591 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 14:09:56.604 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:09:56.605 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 171 ms
+[INFO ] 14:09:56.676 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:09:56.683 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:09:56.686 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 14:09:56.690 com.example.demo.DemoApplication - Started DemoApplication in 0.287 seconds (JVM running for 168.917)
+[INFO ] 14:09:56.691 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:10:19.537 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 16040 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 14:10:19.537 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 14:10:19.669 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 14:10:19.709 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 14:10:19.710 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:10:19.710 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:10:19.710 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 14:10:19.741 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:10:19.741 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 202 ms
+[INFO ] 14:10:19.810 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:10:19.816 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:10:19.819 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 14:10:19.826 com.example.demo.DemoApplication - Started DemoApplication in 0.325 seconds (JVM running for 192.053)
+[INFO ] 14:10:19.828 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:10:21.082 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:10:21.082 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:10:21.085 o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 14:10:21.089 com.example.demo.info.InfoController - return com.example.demo.info.model.Project@28b325ec
+[INFO ] 17:03:45.410 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 16040 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 17:03:45.411 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 17:03:45.558 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 17:03:45.597 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:03:45.598 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:03:45.598 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:03:45.598 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 17:03:45.612 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:03:45.612 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 199 ms
+[INFO ] 17:03:45.714 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:03:45.720 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:03:45.723 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 17:03:45.729 com.example.demo.DemoApplication - Started DemoApplication in 0.357 seconds (JVM running for 10597.955)
+[INFO ] 17:03:45.730 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:03:47.715 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 17:14:34.687 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 4472 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 17:14:34.690 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 17:14:34.751 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 17:14:34.751 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[WARN ] 17:14:35.310 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 17:14:35.717 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:14:35.726 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:14:35.727 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:14:35.728 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 17:14:35.792 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:14:35.792 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1040 ms
+[INFO ] 17:14:36.283 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:14:36.302 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:14:36.320 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 17:14:36.337 com.example.demo.DemoApplication - Started DemoApplication in 2.14 seconds (JVM running for 2.806)
+[INFO ] 17:14:37.302 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 17:14:37.302 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 17:14:37.304 o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 17:26:30.024 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 4472 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 17:26:30.025 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 17:26:30.210 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 17:26:30.245 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:26:30.245 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:26:30.245 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:26:30.246 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 17:26:30.275 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:26:30.275 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 246 ms
+[INFO ] 17:26:30.375 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:26:30.384 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:26:30.387 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 17:26:30.393 com.example.demo.DemoApplication - Started DemoApplication in 0.419 seconds (JVM running for 716.862)
+[INFO ] 17:26:30.395 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:26:43.086 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 4472 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 17:26:43.086 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 17:26:43.213 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 17:26:43.250 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:26:43.250 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:26:43.250 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:26:43.250 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 17:26:43.277 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:26:43.277 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 189 ms
+[WARN ] 17:26:43.329 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'infoController' method 
+com.example.demo.info.InfoController#projectInfo2()
+to {GET [/info2]}: There is already 'infoController' bean method
+com.example.demo.info.InfoController#cumstomJson() mapped.
+[INFO ] 17:26:43.330 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 17:26:43.369 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'infoController' method 
+com.example.demo.info.InfoController#projectInfo2()
+to {GET [/info2]}: There is already 'infoController' bean method
+com.example.demo.info.InfoController#cumstomJson() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'infoController' method 
+com.example.demo.info.InfoController#projectInfo2()
+to {GET [/info2]}: There is already 'infoController' bean method
+com.example.demo.info.InfoController#cumstomJson() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 21 common frames omitted
+[INFO ] 17:27:08.266 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 4472 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 17:27:08.266 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 17:27:08.406 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 17:27:08.449 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:27:08.449 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:27:08.449 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:27:08.449 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 17:27:08.465 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:27:08.465 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 198 ms
+[INFO ] 17:27:08.564 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:27:08.569 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:27:08.573 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 17:27:08.580 com.example.demo.DemoApplication - Started DemoApplication in 0.343 seconds (JVM running for 755.049)
+[INFO ] 17:27:08.581 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:27:24.295 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 4472 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 17:27:24.296 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 17:27:24.415 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 17:27:24.439 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:27:24.439 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:27:24.439 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:27:24.439 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 17:27:24.459 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:27:24.459 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 162 ms
+[INFO ] 17:27:24.551 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:27:24.555 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:27:24.559 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 17:27:24.564 com.example.demo.DemoApplication - Started DemoApplication in 0.295 seconds (JVM running for 771.033)
+[INFO ] 17:27:24.566 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:27:29.130 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 4472 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 17:27:29.130 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 17:27:29.250 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 17:27:29.281 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:27:29.281 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:27:29.281 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:27:29.282 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 17:27:29.291 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:27:29.292 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 159 ms
+[INFO ] 17:27:29.365 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:27:29.371 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:27:29.374 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 17:27:29.380 com.example.demo.DemoApplication - Started DemoApplication in 0.273 seconds (JVM running for 775.849)
+[INFO ] 17:27:29.381 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:28:31.888 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 17:28:31.888 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 17:28:31.889 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 17:28:37.767 com.example.demo.info.InfoController - return com.example.demo.info.model.Project@44a51a5e
+[INFO ] 17:29:32.709 com.example.demo.DemoApplication - Starting DemoApplication using Java 17 on LAPTOP-4P86VC81 with PID 4472 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 17:29:32.709 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 17:29:32.825 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+[INFO ] 17:29:32.866 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 17:29:32.867 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:29:32.867 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:29:32.867 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 17:29:32.886 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:29:32.886 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 176 ms
+[INFO ] 17:29:32.974 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:29:32.979 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:29:32.981 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 17:29:32.985 com.example.demo.DemoApplication - Started DemoApplication in 0.306 seconds (JVM running for 899.455)
+[INFO ] 17:29:32.986 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:29:35.039 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
