@@ -3,4 +3,15 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/world?serverTimeZone=UTC&CharacterEncoding=UTF-8
     username: qkrqhdtn3
-    password: 153153
+    password: Aa123123
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 5000
+      connection-init-sql: SELECT 1
+      validation-timeout: 2000
+      minimum-idle: 2000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      
+server:
+  port: 8080

@@ -9,6 +9,9 @@ import com.example.demo.info.model.City;
 import com.example.demo.info.model.Project;
 import com.example.demo.info.repository.CityRepository;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Service
 public class InfoService {
 	
@@ -29,5 +32,9 @@ public class InfoService {
 	
 	public List<City> getCityList() {
 		return this.cityRepository.findList();
+	}
+	public List<City> findCityByCodeAndPopulation(String countryCode, int population) {
+		log.debug("countryCode = {}, population = {}", countryCode, population);
+		return this.cityRepository.findByCountryCodeAndPopulation(countryCode, population);
 	}
 }
