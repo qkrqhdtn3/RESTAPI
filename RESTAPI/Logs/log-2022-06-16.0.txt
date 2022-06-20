@@ -1,0 +1,285 @@
+[INFO ] 13:34:54.793 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 11832 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 13:34:54.796 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 13:34:54.954 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 13:34:54.954 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 13:34:55.638 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 13:34:55.646 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:34:55.647 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 13:34:55.647 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 13:34:55.690 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 13:34:55.691 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+[INFO ] 13:34:56.041 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 13:34:56.055 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:34:56.070 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 13:34:56.086 com.example.demo.DemoApplication - Started DemoApplication in 1.643 seconds (JVM running for 2.188)
+[INFO ] 13:36:58.010 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 13:37:48.526 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 12064 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 13:37:48.526 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 13:37:48.672 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 13:37:48.672 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 13:37:49.394 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+[INFO ] 13:37:49.401 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:37:49.401 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 13:37:49.401 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 13:37:49.442 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 13:37:49.442 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 769 ms
+[INFO ] 13:37:49.768 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 13:37:49.782 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ] 13:37:49.796 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ] 13:37:49.808 com.example.demo.DemoApplication - Started DemoApplication in 1.594 seconds (JVM running for 2.11)
+[INFO ] 13:38:05.978 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 13:38:05.978 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 13:38:05.979 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 13:38:10.199 com.example.demo.info.InfoController - return com.example.demo.info.model.Project@554f9da8
+[INFO ] 13:38:26.849 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 13:38:27.172 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 13:40:12.558 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 13:40:12.565 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 13:40:12.633 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 12064 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 13:40:12.633 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 13:40:12.805 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 13:40:12.806 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 13:40:12.806 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 13:40:12.806 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 13:40:12.819 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 13:40:12.819 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 184 ms
+[INFO ] 13:40:12.913 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 13:40:12.917 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 13:40:12.920 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 13:40:12.926 com.example.demo.DemoApplication - Started DemoApplication in 0.319 seconds (JVM running for 145.228)
+[INFO ] 13:40:12.927 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 13:40:20.329 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 13:40:20.329 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 13:40:20.331 o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 13:40:20.338 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 13:40:20.350 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 14:46:16.074 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 14:46:16.078 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 14:46:16.153 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 12064 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 14:46:16.153 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:46:16.320 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 14:46:16.320 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:46:16.321 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:46:16.321 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 14:46:16.330 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:46:16.330 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 172 ms
+[WARN ] 14:46:16.358 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController' defined in file [C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main\com\example\demo\info\InfoController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.info.InfoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	RequestMapping cannot be resolved to a type
+
+[INFO ] 14:46:16.358 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 14:46:16.383 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController' defined in file [C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main\com\example\demo\info\InfoController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.info.InfoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	RequestMapping cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.info.InfoController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	RequestMapping cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	RequestMapping cannot be resolved to a type
+
+	at com.example.demo.info.InfoController.<init>(InfoController.java:19)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 24 common frames omitted
+[INFO ] 14:47:12.379 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 12064 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 14:47:12.379 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:47:12.487 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 14:47:12.488 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:47:12.488 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:47:12.488 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 14:47:12.496 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:47:12.496 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 115 ms
+[INFO ] 14:47:12.588 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:47:12.592 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:47:12.593 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 14:47:12.597 com.example.demo.DemoApplication - Started DemoApplication in 0.234 seconds (JVM running for 4164.877)
+[INFO ] 14:47:12.598 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 14:47:14.925 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 14:48:08.842 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 9760 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 14:48:08.843 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 14:48:08.995 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 14:48:08.995 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 14:48:09.681 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 14:48:09.688 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:48:09.688 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:48:09.688 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 14:48:09.732 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:48:09.732 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+[INFO ] 14:48:10.060 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 14:48:10.072 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:48:10.086 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 14:48:10.105 com.example.demo.DemoApplication - Started DemoApplication in 1.575 seconds (JVM running for 2.068)
+[INFO ] 14:48:16.476 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:48:16.477 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:48:16.479 o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 14:48:20.736 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:48:21.145 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:17:47.850 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 15:17:47.893 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 15:17:47.897 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 15:53:58.971 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 6260 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 15:53:58.972 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:53:59.119 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 15:53:59.119 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 15:53:59.769 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:53:59.777 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:53:59.778 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:53:59.778 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 15:53:59.818 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:53:59.819 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 700 ms
+[INFO ] 15:54:00.144 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 15:54:00.155 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:54:00.170 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:54:00.185 com.example.demo.DemoApplication - Started DemoApplication in 1.537 seconds (JVM running for 2.021)
+[INFO ] 15:54:00.533 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:54:00.533 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:54:00.534 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 15:54:04.483 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:54:04.732 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:54:30.050 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 15:54:30.056 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 15:54:30.113 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 6260 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 15:54:30.114 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:54:30.238 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:54:30.238 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:54:30.238 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:54:30.238 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 15:54:30.247 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:54:30.247 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 132 ms
+[INFO ] 15:54:30.324 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 15:54:30.328 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:54:30.330 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:54:30.334 com.example.demo.DemoApplication - Started DemoApplication in 0.241 seconds (JVM running for 32.17)
+[INFO ] 15:54:30.335 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 15:54:39.996 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 6260 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 15:54:39.996 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:54:40.127 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:54:40.127 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:54:40.127 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:54:40.127 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 15:54:40.136 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:54:40.136 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 139 ms
+[INFO ] 15:54:40.211 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 15:54:40.215 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:54:40.216 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:54:40.220 com.example.demo.DemoApplication - Started DemoApplication in 0.243 seconds (JVM running for 42.056)
+[INFO ] 15:54:40.221 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 15:54:41.041 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:54:41.041 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:54:41.041 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 15:54:41.053 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 15:54:41.065 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 15:56:07.298 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 15:56:07.301 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 15:56:07.346 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 6260 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 15:56:07.346 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 15:56:07.459 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 15:56:07.460 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:56:07.460 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:56:07.460 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 15:56:07.467 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:56:07.467 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 120 ms
+[INFO ] 15:56:07.529 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 15:56:07.533 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:56:07.534 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 15:56:07.538 com.example.demo.DemoApplication - Started DemoApplication in 0.209 seconds (JVM running for 129.374)
+[INFO ] 15:56:07.538 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 15:56:46.353 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:56:46.354 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:56:46.355 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 15:56:46.364 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 15:56:46.379 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 16:03:38.100 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+[INFO ] 16:03:38.103 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+[INFO ] 16:03:38.155 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 6260 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 16:03:38.155 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 16:03:38.267 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 16:03:38.267 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:03:38.267 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:03:38.267 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 16:03:38.276 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:03:38.276 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 120 ms
+[INFO ] 16:03:38.341 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 16:03:38.344 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:03:38.346 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 16:03:38.350 com.example.demo.DemoApplication - Started DemoApplication in 0.212 seconds (JVM running for 580.185)
+[INFO ] 16:03:38.350 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 16:04:39.344 com.example.demo.DemoApplication - Starting DemoApplication using Java 18.0.1 on LAPTOP-4P86VC81 with PID 6260 (C:\Users\qkrqh\eclipse-workspace\RESTAPI\bin\main started by qkrqh in C:\Users\qkrqh\eclipse-workspace\RESTAPI)
+[INFO ] 16:04:39.344 com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 16:04:39.449 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 16:04:39.449 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:04:39.449 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:04:39.449 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 16:04:39.457 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:04:39.457 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 112 ms
+[INFO ] 16:04:39.518 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 16:04:39.522 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:04:39.523 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 16:04:39.527 com.example.demo.DemoApplication - Started DemoApplication in 0.199 seconds (JVM running for 641.363)
+[INFO ] 16:04:39.528 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 16:04:42.662 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 16:04:42.662 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 16:04:42.663 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 16:04:42.669 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+[INFO ] 16:04:42.679 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+[WARN ] 16:06:14.161 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31619fcc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.163 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3c877626 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.165 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48b664a6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.166 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58750db1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.167 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1de4fd86 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.168 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6917759b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.168 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4f79f76f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.169 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43bf43cc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.169 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1eb70ee3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[WARN ] 16:06:14.170 com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@452e74ba (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[ERROR] 16:06:19.156 o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: HikariPool-4 - Connection is not available, request timed out after 5006ms.] with root cause
+java.sql.SQLException: The server is currently in offline mode
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 16:07:53.871 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 16:07:53.899 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+[INFO ] 16:07:56.937 com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.

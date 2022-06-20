@@ -1,13 +1,20 @@
 package com.example.demo.info;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.info.model.City;
@@ -19,6 +26,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RestController
+//@Controller
 @RequestMapping("info")
 public class InfoController {
 
@@ -107,5 +115,66 @@ public class InfoController {
 		log.debug("countryCode = {}, population = {}", countryCode, population);
 		List<City> cityList = infoService.findCityByCodeAndPopulation(countryCode, population);
 		return cityList;
+	}
+	
+	// http://localhost:8080/info/cityAdd1?name=TEST&countryCode=TST&district=Seoul&population=100
+	@GetMapping(value="cityAdd1")
+	public Object cityAdd1(City city) {
+		log.debug("city = {}", city.toString());
+		return "ok";
+	}
+	
+	// http://localhost:8080/info/cityAdd2/TEST/TST/Seoul/100
+	@GetMapping("cityAdd2/{name}/{countryCode}/{district}/{population}")
+	public Object cityAdd2(@PathVariable(value="name") String name, 
+			@PathVariable(value="countryCode") String ctCode, 
+			@PathVariable(value="district") String district, 
+			@PathVariable(value="population") int population) {
+		log.debug("name = {}, ctCode = {}, district = {}, population = {}", name, ctCode, district, population);
+		return "ok";
+	}
+	
+	// http://localhost:8080/info/cityAdd3?name=TEST&countryCode=TST&district=Seoul&population=100
+	@GetMapping("cityAdd3")
+	public Object cityAdd3(@RequestParam(value="name", required=true) String name, 
+			@RequestParam(value="countryCode", required=true) String ctCode, 
+			@RequestParam(value="district", required=true) String district, 
+			@RequestParam(value="population", required=false, defaultValue="0") int population) {
+		log.debug("name = {}, ctCode = {}, district = {}, population = {}", name, ctCode, district, population);
+		
+		return "ok";
+	}
+	
+	// http://localhost:8080/info/cityAdd4
+//	{
+//		  "name": "TEST",
+//		  "countryCode": "TST",
+//		  "district": "Seoul",
+//		  "population": 100
+//		}
+	@PostMapping(value="cityAdd4")
+	public ResponseEntity<City> cityAdd4(@RequestBody City city){
+		log.debug("city = {}", city.toString());
+		return new ResponseEntity<>(city, HttpStatus.OK);
+	}
+	
+	// http://localhost:8080/info/cityAdd5?name=TEST&countryCode=TST&district=Seoul&population=100
+	@PostMapping(value="cityAdd5")
+	public ResponseEntity<String> cityAdd5(@RequestBody City city){
+		try {
+			log.debug("city = {}", city.toString());
+			
+			log.debug(city.getId().toString());
+		} catch (Exception e) {
+			return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+		return new ResponseEntity<>("", HttpStatus.OK);
+	}
+	
+	// http://localhost:8080/info/cityAdd6?name=TEST&countryCode=TST&district=Seoul&population=100
+	@PostMapping(value="cityAdd6")
+	public ResponseEntity<String> cityAdd6(String name, String countryCode, String district, Integer population){
+		log.debug("name = {}, ctCode = {}, district = {}, population = {}", name, countryCode, district, population);
+		return new ResponseEntity<>("", HttpStatus.OK);
 	}
 }
