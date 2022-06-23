@@ -177,4 +177,40 @@ public class InfoController {
 		log.debug("name = {}, ctCode = {}, district = {}, population = {}", name, countryCode, district, population);
 		return new ResponseEntity<>("", HttpStatus.OK);
 	}
+	
+	@PostMapping(value="cityAdd7")
+	public ResponseEntity<City> cityAdd(@RequestBody City city){
+		try {
+			log.debug("city = {}", city.toString());
+			return new ResponseEntity<>(infoService.insert(city), HttpStatus.OK);
+		} catch(Exception e) {
+			log.error(e.toString());
+			return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+	
+	@PostMapping(value="cityEdit")
+	public ResponseEntity<String> cityEdit(@RequestBody City city){
+		try {
+			log.debug("city = {}", city.toString());
+			Integer updatedCnt = infoService.updateById(city);
+			return new ResponseEntity<>(String.format("%d updated", updatedCnt), HttpStatus.OK);
+		} catch (Exception e) {
+			log.debug(e.toString());
+			return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+	
+	@ResponseBody
+	@PostMapping(value="cityDelete")
+	public ResponseEntity<String> cityDelete(@RequestParam(value="id") Integer id){
+		try {
+			log.debug("city id = {}", id);
+			Integer deletedCnt = infoService.deleteById(id);
+			return new ResponseEntity<>(String.format("%d deleted", deletedCnt), HttpStatus.OK);
+		} catch(Exception e) {
+			log.debug(e.toString());
+			return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
 }
