@@ -1,10 +1,16 @@
 package com.example.demo.info;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -16,9 +22,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import com.example.demo.info.model.City;
+import com.example.demo.info.model.FileData;
 import com.example.demo.info.model.Project;
+import com.example.demo.info.storage.StorageService;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
@@ -29,7 +39,17 @@ import lombok.extern.slf4j.Slf4j;
 //@Controller
 @RequestMapping("info")
 public class InfoController {
+	
+	//	DI InfoControllder, InfoService
+	private InfoService infoService;
+	private StorageService storageService;
 
+	@Autowired
+	public InfoController(InfoService infoService, StorageService storageService) {
+		this.infoService = infoService;
+		this.storageService = storageService;
+	}
+	
 	@GetMapping()
 	public String Hello() {
 		return "Hello2";
@@ -76,15 +96,6 @@ public class InfoController {
 		}
 		jo.add("follower", ja);
 		return jo.toString();
-	}
-
-//	DI InfoControllder, InfoService
-//	@Autowired
-	private InfoService infoService;
-
-	@Autowired
-	public InfoController(InfoService infoService) {
-		this.infoService = infoService;
 	}
 
 	@GetMapping("4")
@@ -178,6 +189,7 @@ public class InfoController {
 		return new ResponseEntity<>("", HttpStatus.OK);
 	}
 	
+//	http://localhost:8080/info/cityAdd7
 	@PostMapping(value="cityAdd7")
 	public ResponseEntity<City> cityAdd(@RequestBody City city){
 		try {
@@ -189,6 +201,7 @@ public class InfoController {
 		}
 	}
 	
+//	http://localhost:8080/info/cityEdit
 	@PostMapping(value="cityEdit")
 	public ResponseEntity<String> cityEdit(@RequestBody City city){
 		try {
@@ -201,6 +214,7 @@ public class InfoController {
 		}
 	}
 	
+//	http://localhost:8080/info/cityDelete?id=4085
 	@ResponseBody
 	@PostMapping(value="cityDelete")
 	public ResponseEntity<String> cityDelete(@RequestParam(value="id") Integer id){
@@ -212,5 +226,55 @@ public class InfoController {
 			log.debug(e.toString());
 			return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
 		}
+	}
+	
+//	http://localhost:8080/info/uploadFile
+	@PostMapping(value="uploadFile")
+	public ResponseEntity<String> uploadFile(MultipartFile file) throws IllegalStateException, IOException{
+		if(!file.isEmpty()) {
+			log.debug("file org name = {}", file.getOriginalFilename());
+			log.debug("file content type = {}", file.getContentType());
+			file.transferTo(new File(file.getOriginalFilename()));
+		}
+		return new ResponseEntity<>("", HttpStatus.OK);
+	}
+	
+//	http://localhost:8080/info/upload
+	@PostMapping(value="upload")
+	public ResponseEntity<String> upload(MultipartFile file) throws IllegalStateException, IOException{
+		storageService.store(file);
+		return new ResponseEntity<>("", HttpStatus.OK);
+	}
+	
+//	http://localhost:8080/info/download?filename=RESTAPI개발환경.txt
+	@GetMapping(value="download")
+	public ResponseEntity<Resource> serveFile(@RequestParam(value="filename") String filename) {
+		Resource file = storageService.loadAsResource(filename);
+		return ResponseEntity.ok().header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + file.getFilename() + "\"").body(file);
+	}
+	
+//	http://localhost:8080/info/deleteAll
+	@PostMapping(value="deleteAll")
+	public ResponseEntity<String> deleteAll(){
+		storageService.deleteAll();
+		return new ResponseEntity<>("", HttpStatus.OK);
+	}
+	
+//	http://localhost:8080/info/fileList
+	@GetMapping("fileList")
+	public ResponseEntity<List<FileData>> getListFiles(){
+		List<FileData> fileInfos = storageService.loadAll().map(path ->{
+			FileData data = new FileData();
+			String filename = path.getFileName().toString();
+			data.setFilename(filename);
+			data.setUrl(MvcUriComponentsBuilder.fromMethodName(InfoController.class, "serveFile", filename).build().toString());
+			try {
+				data.setSize(Files.size(path));
+			} catch(IOException e) {
+				log.error(e.getMessage());
+			}
+			return data;
+		}).collect(Collectors.toList());
+		return ResponseEntity.status(HttpStatus.OK).body(fileInfos);
 	}
 }
